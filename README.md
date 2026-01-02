@@ -1,26 +1,24 @@
 # JumeauRobotQuadripede
+Ce projet s’inscrit dans un travail de groupe visant à concevoir et à générer des trajectoires pour un robot quadrupède. Mon rôle consistait à concevoir les trajectoires que le robot devait réaliser, ainsi qu’à les exporter dans un format exploitable par la personne responsable de l’implémentation du code embarqué sur le robot.
 
-Ce projet s'inscrit dans un projet de groupe visant à concevoir et à faire réaliser des trajectoires à un robot quadrupède. Mon rôle était de concevoir les trajectoires que le robot devait réaliser, ainsi que les exporter en un format utilisable par le responsable de l'implémentation du code dans le robot.
+Cela m’a conduit à réaliser un jumeau numérique cinématique d’un robot quadrupède afin de concevoir ses trajectoires et de les optimiser à l’aide d’un algorithme génétique.
 
-Cela m'a mener à la réalisation d'un jumeau numérique cinématique d'un robot quadrupède afin de concevoir sa trajectoire et de l'optimiser via un algorithme génétique.
+#### Aucune bibliothèque dédiée à la robotique n’a été utilisée.
+### Objectifs :
+- Réaliser un jumeau numérique cinématique du robot capable de générer des trajectoires quelconques
+- Être capable d’évaluer les trajectoires
+- Optimiser une trajectoire (via un algorithme génétique)
+- Exporter une trajectoire sous deux formats :
 
-Auncune bilbiothéque dédié à la robotique n'a été utilisé.
+1er format : une liste dont les colonnes sont
+| x | y | z | BP |
+où x, y et z représentent les positions du i-ème point de passage, et BP est un booléen indiquant si le point est en contact avec le sol.
 
-Objectifs : 
-- Réaliser un jumeau numérique cinématique du robot capable de réaliser une trajectoire quelquonque
-- Être capable d'évaluer les trajectoires
-- Optmiser une trajectoire (via algorithme génétique)
-- Exporter une trajectoire sous deux format :
-  
-  1er format : une liste où les colonnes sont 
-  | x | y | z | BP |
-  avec x, y, z les positions du i-ème point de passage et BP un booléen identiquant si oui ou non le point est en contact avec le sol
+2e format : une liste dont les colonnes sont
+| t | q₁ | q₂ | q₃ | … | q₁₂ |
+où q₁, …, q₁₂ correspondent aux angles des moteurs à l’instant t.
 
-  2eme format : une liste où les colonnes sont 
-  t | q_1 | q_2 | q_3 | ... | q_12 |
-  avec q_1, ..., q_12 les angles moteurs au temps t
-
-# Résulats 
+### Résultats
 
 ![til](./Resultat/traj.gif)
 <legend>Simulation du robot suivant une trajectoire optimisée (itérations : 300)</legend>
