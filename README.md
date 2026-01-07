@@ -29,4 +29,5 @@ où q₁, …, q₁₂ correspondent aux angles des moteurs à l’instant t.
 #### En condition réel
 
 Rotation de 360° : 3.5 s; 0° d'erreur
+
 Sprint 3m : 25s; 10 cm d'erreur
