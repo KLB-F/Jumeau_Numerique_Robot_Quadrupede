@@ -25,3 +25,8 @@ où q₁, …, q₁₂ correspondent aux angles des moteurs à l’instant t.
 
 ![alt text](https://github.com/KLB-F/ProjetRobotique/blob/ffc319b9bc4cacaf6672e6c26e9feeabc2315b62/Resultats/%20EvolutionVitesseIteration.png)
 <legend>Evolution de la vitesse moyenne du robot calculé issuent des 5 meilleurs trajectoirs à la i-ème itérations</legend>
+
+#### En condition réel
+
+Rotation de 360° : 3.5 s; 0° d'erreur
+Sprint 3m : 25s; 10 cm d'erreur
