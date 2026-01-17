@@ -1,9 +1,11 @@
-# JumeauRobotQuadripede
-Ce projet s’inscrit dans un travail de groupe visant à concevoir et à générer des trajectoires pour un robot quadrupède. Mon rôle consistait à concevoir les trajectoires que le robot devait réaliser, ainsi qu’à les exporter dans un format exploitable par la personne responsable de l’implémentation du code embarqué sur le robot.
+# Jumeau Numérique Cinématique d'un Robot Quadripede
+Ce projet s’inscrit dans un travail de groupe visant à concevoir et commander un robot quadrupède. Mon rôle consistait à concevoir les trajectoires que le robot devait réaliser, ainsi qu’à les exporter dans un format exploitable par la personne responsable de l’implémentation du code embarqué sur le robot.
 
 Cela m’a conduit à réaliser un jumeau numérique cinématique d’un robot quadrupède afin de concevoir ses trajectoires et de les optimiser à l’aide d’un algorithme génétique.
 
 #### Aucune bibliothèque dédiée à la robotique n’a été utilisée.
+De plus, bien que le projet soit en groupe, le travail ici présent à été effectué seul.
+
 ### Objectifs :
 - Réaliser un jumeau numérique cinématique du robot capable de générer des trajectoires quelconques
 - Être capable d’évaluer les trajectoires
@@ -21,7 +23,7 @@ où q₁, …, q₁₂ correspondent aux angles des moteurs à l’instant t.
 ### Résultats
 
 ![til](./Resultat/traj.gif)
-<legend>Simulation du robot suivant une trajectoire optimisée (itérations : 300)</legend>
+<legend>Affichage d'une simulation de la trajectoire du robot</legend>
 
-![alt text](https://github.com/KLB-F/ProjetRobotique/blob/ffc319b9bc4cacaf6672e6c26e9feeabc2315b62/Resultats/%20EvolutionVitesseIteration.png)
+![alt text](./Resultat/_EvolutionVitesseIteration.png)
 <legend>Evolution de la vitesse moyenne du robot calculé issuent des 5 meilleurs trajectoirs à la i-ème itérations</legend>
