@@ -36,24 +36,29 @@ Evaluation et optimisation de trajectoire :
 
 ## Résultats :
 
-Voici une présentation des résultats pour la trajectoire en rotation. On part d'abord d'une trajectoire initiale (Figure 1), avant d'appliqué l'algorithme d'optimisation de la trajectoire. L'on obtient alors une trajectoire optimisée (Figure 3) ainsi que l'évolution de la vitesse de roation en fonction des générations (Figure 2). Enfin, l'on peut maintenant exporter la trajectoire pour l'implémenter sur le robot et observé le résultat (Vidéo 1).
+Voici une présentation des résultats pour la trajectoire en rotation. On part d'abord d'une trajectoire initiale (Figure 1), avant d'appliqué l'algorithme d'optimisation de la trajectoire. L'on obtient alors une trajectoire optimisée (Figure 3) ainsi que l'évolution de la vitesse de roation en fonction des générations (Figure 2). Enfin, l'on peut maintenant exporter la trajectoire pour l'implémenter sur le robot et observé le résultat (Vidéo 1, Table 1).
 
-> Figure 1
+> Figure 1 - Simulation du robot effectuant la trajectoire initiale (ralentit)
 
 ![Figure_1](./Resultat/traj.gif)
 
-> Figure 2
+> Figure 2 - Evolution de la vitesse moyenne des 5 meilleurs trajectoires en fonction des itérations
 
 ![Figure_2](./Resultat/_EvolutionVitesseIteration.png)
 
-> Figure 3
-
-## Limites : 
-
-
+> Figure 3 - Simulation du robot effectuant une trajectoire optimisée (ralentit)
 
 ![Figure_3](./Resultat/traj_opti.gif)
 
-> Video 1
+> Video 1 - Robot lors d'une rotation 
 
 [![Video_1](./Resultat/Preview_video.png)](./Resultat/video_rotation.mp4)
+
+> Table 1 - Performance du robot lors des épreuve d'évaluation
+
+| Epreuve  | Temps | Précision | Meilleur performance |
+| ------------- | ------------- |  ------------- | ------------- |
+| Sprint (3 m) | 25 s  | 15 cm  | Oui  |
+| 360°  | 4.5 s  | < 3°  | Oui  |
+
+## Limites : 
