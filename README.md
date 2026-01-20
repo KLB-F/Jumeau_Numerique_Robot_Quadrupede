@@ -13,18 +13,8 @@ De plus, bien que le projet soit en groupe, le travail ici présent à été eff
 - Être capable d’évaluer les trajectoires selon leurs vitesse et stabilités
 - Optimiser une trajectoire (via un algorithme génétique)
 - Exporter une trajectoire sous deux formats .csv :
-
-  1er format - Sauvegarde de la trajectoire pour réutilisation ultérieur par le programme - Une liste dont les colonnes  : 
-  
-  | x | y | z | BP |
-  
-  où x, y et z représentent les positions du i-ème point de passage, et BP est un booléen indiquant si le point est en contact avec le sol.
-  
-  2eme format - Exportation pour implémentation hardware - Une liste dont les colonnes sont :
-  
-  | t | q₁ | q₂ | q₃ | … | q₁₂ |
-  
-  où q₁, …, q₁₂ correspondent aux angles des moteurs à l’instant t.
+  - 1er format - Sauvegarde de la trajectoire pour réutilisation ultérieur par le programme
+  - 2eme format - Exportation pour implémentation hardware
 
 ## Fonctionnalités principals :
 
@@ -34,6 +24,7 @@ Simulation de trajectoire :
 - Possibilité d'enregistrer / de charger des trajectoires
 - Exportation possible pour l'implémentation hardware
 - Possibilité d'afficher la trajectoire par le biais d'un gif
+- Grande variété de trajectoire crées possible
 
 Evaluation et optimisation de trajectoire :
 - Evaluation de la stabilité
