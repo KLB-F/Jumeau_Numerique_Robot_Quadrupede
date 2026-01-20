@@ -14,7 +14,7 @@ De plus, bien que le projet soit en groupe, le travail ici présent à été eff
 - Optimiser une trajectoire (via un algorithme génétique)
 - Exporter une trajectoire sous deux formats .csv :
 
-  1er format - Sauvegarde de la trajectoire pour réutilisation par le programme - Une liste dont les colonnes  : 
+  1er format - Sauvegarde de la trajectoire pour réutilisation ultérieur par le programme - Une liste dont les colonnes  : 
   
   | x | y | z | BP |
   
@@ -26,9 +26,22 @@ De plus, bien que le projet soit en groupe, le travail ici présent à été eff
   
   où q₁, …, q₁₂ correspondent aux angles des moteurs à l’instant t.
 
-## Réalisation :
+## Fonctionnalités principals :
 
-Le jumeau numérique inclue 
+Simulation de trajectoire :
+- Simulation cinématique dans le domaine temporelle et spatiale
+- Gestion de la synchronicité des pattes
+- Possibilité d'enregistrer / de charger des trajectoires
+- Exportation possible pour l'implémentation hardware
+- Possibilité d'afficher la trajectoire par le biais d'un gif
+
+Evaluation et optimisation de trajectoire :
+- Evaluation de la stabilité
+- Evaluation de la vitesse
+- Détection des trajectoire non valide
+- Optimisation des trajectoire via algorithme génétique
+
+## Utilisation
 
 ## Résultats :
 
@@ -43,6 +56,10 @@ Voici une présentation des résultats pour la trajectoire en rotation. On part 
 ![Figure_2](./Resultat/_EvolutionVitesseIteration.png)
 
 > Figure 3
+
+## Limites : 
+
+
 
 ![Figure_3](./Resultat/traj_opti.gif)
 
