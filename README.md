@@ -36,7 +36,7 @@ Evaluation et optimisation de trajectoire :
 
 Voici une présentation des résultats pour la trajectoire en rotation. Une trajectoire initiale est d'abord définie (Figure 1), puis optimisée par application de l'algorithme génétique. L'on obtient alors une trajectoire optimisée (Figure 3) ainsi que l'évolution de la vitesse de rotation en fonction des générations (Figure 2). Enfin, l'on peut maintenant exporter la trajectoire pour l'implémenter sur le robot et observer le résultat (Vidéo 1, Table 1).
 
-> Figure 1 - Simulation du robot effectuant la trajectoire initiale (ralentit)
+> Figure 1 - Simulation du robot effectuant la trajectoire initiale (ralenti)
 
 ![Figure_1](./Resultat/traj.gif)
 
@@ -44,7 +44,7 @@ Voici une présentation des résultats pour la trajectoire en rotation. Une traj
 
 ![Figure_2](./Resultat/_EvolutionVitesseIteration.png)
 
-> Figure 3 - Simulation du robot effectuant une trajectoire optimisée (ralentit)
+> Figure 3 - Simulation du robot effectuant une trajectoire optimisée (ralenti)
 
 ![Figure_3](./Resultat/traj_opti.gif)
 
