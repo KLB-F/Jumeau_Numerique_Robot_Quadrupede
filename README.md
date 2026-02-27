@@ -51,10 +51,3 @@ Voici une présentation des résultats pour la trajectoire en rotation. Une traj
 > Video 1 - Robot lors d'une rotation 
 
 [![Video_1](./Resultat/Preview_video.png)](./Resultat/video_rotation.mp4)
-
-> Table 1 - Performance du robot lors des épreuves d'évaluation
-
-| Epreuve  | Temps | Précision | Meilleure performance |
-| ------------- | ------------- |  ------------- | ------------- |
-| Sprint (3 m) | 25 s  | 15 cm  | Oui  |
-| 360°  | 4.5 s  | < 3°  | Oui  |
